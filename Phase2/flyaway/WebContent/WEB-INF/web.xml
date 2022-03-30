@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>flyaway</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+   <!-- Login -->
+  <servlet>
+  <servlet-name>LoginPage</servlet-name>
+  <servlet-class>program.Login</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>LoginPage</servlet-name>
+  <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Change password -->
+   <servlet>
+  <servlet-name>ChangePassword</servlet-name>
+  <servlet-class>program.ChangePassword</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ChangePassword</servlet-name>
+  <url-pattern>/changepassword</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Search Flight -->
+   <servlet>
+  <servlet-name>SearchFlight</servlet-name>
+  <servlet-class>program.SearchFlight</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>SearchFlight</servlet-name>
+  <url-pattern>/searchflight</url-pattern>
+  </servlet-mapping>
+  
+   <!-- Register Passenger -->
+   <servlet>
+  <servlet-name>RegisterPassenger</servlet-name>
+  <servlet-class>program.Register</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>RegisterPassenger</servlet-name>
+  <url-pattern>/register</url-pattern>
+  </servlet-mapping> 
+</web-app>
