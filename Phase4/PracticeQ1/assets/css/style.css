@@ -1,0 +1,78 @@
+:root {
+    --main-color: #1B1A1A;
+    --sec-color: #3224cf;
+    --ter-color: #FFF4EA;
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+footer {
+    background-color:  var(--sec-color);
+}
+
+footer p {
+    color: var(--ter-color);
+}
+
+h1 {
+    color: var(--ter-color);
+}
+
+h2 {
+    color: var(--ter-color);
+}
+
+h3 {
+    color: var(--sec-color)
+}
+
+h6 {
+    color: var(--ter-color)
+}
+
+a {
+    color: var(--ter-color) 
+}
+
+p {
+    color: var(--ter-color);
+}
+
+form {
+    color: var(--ter-color)
+}
+
+.navbar{
+    background-color:  var(--sec-color);
+}
+
+.card {
+    background-color: var(--ter-color);
+}
+
+.card p {
+    color: var(--main-color);
+}
+
+.carousel {
+    background-color:  var(--sec-color);
+}
+
+.btn{
+    background-color:  var(--sec-color);
+    color: var(--ter-color);
+}
+
+.carousel-caption {
+    text-shadow:#000 -1px -1px
+}
+
+.img_bestseller{
+    object-fit: scale-down;
+    width: 250px; 
+    height: 200px;
+}
+
+
