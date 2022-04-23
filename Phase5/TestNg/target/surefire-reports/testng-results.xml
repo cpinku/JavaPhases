@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.simplilearn.demo.NewTest" duration-ms="77" started-at="2022-04-19T11:55:36 IST" finished-at="2022-04-19T11:55:36 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="77" started-at="2022-04-19T11:55:36 IST" finished-at="2022-04-19T11:55:36 IST">
+      <class name="com.simplilearn.demo.NewTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.simplilearn.demo.NewTest@3b088d51]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2022-04-19T11:55:36 IST" finished-at="2022-04-19T11:55:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.simplilearn.demo.NewTest@3b088d51]" name="beforeTest" is-config="true" duration-ms="0" started-at="2022-04-19T11:55:36 IST" finished-at="2022-04-19T11:55:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.simplilearn.demo.NewTest@3b088d51]" name="beforeClass" is-config="true" duration-ms="0" started-at="2022-04-19T11:55:36 IST" finished-at="2022-04-19T11:55:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.demo.NewTest@3b088d51]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-04-19T11:55:36 IST" finished-at="2022-04-19T11:55:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="NewFunction()[pri:0, instance:com.simplilearn.demo.NewTest@3b088d51]" name="NewFunction" duration-ms="0" started-at="2022-04-19T11:55:36 IST" finished-at="2022-04-19T11:55:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewFunction -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.demo.NewTest@3b088d51]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-04-19T11:55:36 IST" finished-at="2022-04-19T11:55:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.simplilearn.demo.NewTest@3b088d51]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-04-19T11:55:36 IST" finished-at="2022-04-19T11:55:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.simplilearn.demo.NewTest@3b088d51]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-04-19T11:55:36 IST" finished-at="2022-04-19T11:55:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.simplilearn.demo.NewTest@3b088d51]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-04-19T11:55:36 IST" finished-at="2022-04-19T11:55:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.simplilearn.demo.NewTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.simplilearn.demo.NewTest -->
+</testng-results>

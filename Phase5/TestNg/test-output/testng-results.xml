@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-14T16:41:46 IST" name="Default suite" finished-at="2022-04-14T16:41:58 IST" duration-ms="12676">
+    <groups>
+      <group name="Chrome">
+        <method signature="ParallelTests.LaunchChrome()[pri:0, instance:com.simplilearn.demo.ParallelTests@346d61be]" name="LaunchChrome" class="com.simplilearn.demo.ParallelTests"/>
+        <method signature="ParallelTests.TryFacebook()[pri:0, instance:com.simplilearn.demo.ParallelTests@346d61be]" name="TryFacebook" class="com.simplilearn.demo.ParallelTests"/>
+      </group> <!-- Chrome -->
+    </groups>
+    <test started-at="2022-04-14T16:41:46 IST" name="Default test" finished-at="2022-04-14T16:41:58 IST" duration-ms="12676">
+      <class name="com.simplilearn.demo.ParallelTests">
+        <test-method signature="LaunchChrome()[pri:0, instance:com.simplilearn.demo.ParallelTests@346d61be]" started-at="2022-04-14T16:41:46 IST" name="LaunchChrome" finished-at="2022-04-14T16:41:58 IST" duration-ms="12010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchChrome -->
+        <test-method signature="TryFacebook()[pri:0, instance:com.simplilearn.demo.ParallelTests@346d61be]" started-at="2022-04-14T16:41:58 IST" name="TryFacebook" finished-at="2022-04-14T16:41:58 IST" depends-on-methods="com.simplilearn.demo.ParallelTests.LaunchChrome" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TryFacebook -->
+      </class> <!-- com.simplilearn.demo.ParallelTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
